@@ -1,7 +1,51 @@
-<?php include('include/header.php') ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Adams Portfolio</title>
 </html>
 <body>
-<?php include('include/topMenu.php') ?>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">😃Adams</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                </ul>
+                <ul class="search">
+                    <li>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/huzaifa-iqbal-20701620a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
 <section class="mainSec">
     <figure class="mainImg">
@@ -420,5 +464,40 @@
         </div>
     </div>
 </section>
-<?php include('include/footer.php') ?>
-<?php include('include/scripts.php') ?>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footerContent">
+                    <h2>
+                        Let's hire me and make the best product
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corporis culpa delectus
+                        doloribus eaque eos et illo illum itaque modi, mollitia nam non odio, odit optio provident
+                        quibusdam recusandae voluptate.
+                    </p>
+                    <div class="btnCont">
+                        <a href="" class="themeBtn">
+                            <i class="fab fa-youtube"></i>
+                            Youtube
+                        </a>
+                        <a href="" class="themeBtn">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <figure class="footerImg">
+                    <img src="./assets/images/footer.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./assets/js/app.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</body>
+</html>
